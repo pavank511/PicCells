@@ -72,10 +72,19 @@
             text-align:center;
             padding:10px;
         }
-        header{
+        /*header{
             display:flex;            
             justify-content:center;        
             background-color:#271463;
+            color:white;
+            flex-basis:100%;
+            align-items:center;
+            height:50px;
+        }*/
+        header{
+            display:flex;            
+            justify-content:center;        
+            background-color:rgb(35,42,52);
             color:white;
             flex-basis:100%;
             align-items:center;

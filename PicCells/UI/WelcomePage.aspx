@@ -41,7 +41,7 @@
             width:100%;
             height:auto;
         }
-         header{
+         /*header{
             display:flex;            
             justify-content:center;        
             background-color:#271463;
@@ -49,6 +49,19 @@
             flex-basis:100%;
             align-items:center;
             height:50px;
+        }*/
+         header{
+            display:flex;            
+            justify-content:center;        
+            background-color:rgb(35,42,52);
+            color:white;
+            flex-basis:100%;
+            align-items:center;
+            height:50px;
+            position:fixed;
+          transition: all 0.4s ease;
+          width:100vw;
+          z-index:+1; 
         }
         .topnav{
             width:65%;           
